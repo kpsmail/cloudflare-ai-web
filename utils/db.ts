@@ -61,8 +61,7 @@ export const textGenModels: Model[] = [{
 }, {
     id: '@cf/unum/uform-gen2-qwen-500m',
     name: 'uform-gen2-qwen-500m',
-    provider: 'Unum Cloud',
-    endpoint: 'chat/completions',
+    provider: 'workers-ai',
     type: 'chat'
 }, {
     id: '@cf/qwen/qwen1.5-14b-chat-awq',
