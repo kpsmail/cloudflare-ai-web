@@ -59,9 +59,9 @@ export const textGenModels: Model[] = [{
     provider: 'google',
     type: 'chat'
 }, {
-    id: 'gpt-3.5-turbo',
-    name: 'ChatGPT-3.5-turbo',
-    provider: 'openai',
+    id: '@cf/unum/uform-gen2-qwen-500m',
+    name: 'uform-gen2-qwen-500m',
+    provider: 'Unum Cloud',
     endpoint: 'chat/completions',
     type: 'chat'
 }, {
